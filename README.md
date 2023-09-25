@@ -1,4 +1,4 @@
-# DramaQA Knowledge Graph 생성 코
+# DramaQA Knowledge Graph Generation 코드
 
 
 script(AnotherMissOh_script.json) / input_paths(AnotherMissOhQA_train/val/test_set.json) 데이터셋 경로 수정 필요
@@ -7,7 +7,7 @@ script(AnotherMissOh_script.json) / input_paths(AnotherMissOhQA_train/val/test_s
 ### 도커 이미지 및 가상환경
 ```bash
 docker pull kyunghwan7949/dramaqa:latest
-docker run -it --gpus '"device=2"' -v /media:/data -v /home/:/mount -v --ipc=host --name dramaqa docker.io/kyunghwan7949/dramaqa:latest /bin/bash
+docker run -it --gpus '"device=2"' -v --ipc=host --name dramaqa docker.io/kyunghwan7949/dramaqa:latest /bin/bash
 conda activate dramaqa
 ```
 
