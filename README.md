@@ -1,4 +1,4 @@
-# DramaQA Knowledge Graph Generation 코드
+# DramaQA Knowledge Graph Generation
 
 
 script(AnotherMissOh_script.json) / input_paths(AnotherMissOhQA_train/val/test_set.json) 데이터셋 경로 수정 필요
