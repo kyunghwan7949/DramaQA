@@ -8,7 +8,7 @@ script(AnotherMissOh_script.json) / input_paths(AnotherMissOhQA_train/val/test_s
 ```bash
 docker pull kyunghwan7949/dramaqa:latest
 docker run -it --gpus '"device=2"' -v /media:/data -v /home/:/mount -v --ipc=host --name dramaqa docker.io/kyunghwan7949/dramaqa:latest /bin/bash
-conda activate qagnn
+conda activate dramaqa
 ```
 
 ### 그래프 생성 
