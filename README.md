@@ -7,7 +7,7 @@ script(AnotherMissOh_script.json) / input_paths(AnotherMissOhQA_train/val/test_s
 ### 도커 코드, 이미지 및 가상환경
 ```bash
 docker pull kyunghwan7949/dramaqa:latest
-docker run -it --gpus '"device=2"' -v --ipc=host --name dramaqa docker.io/kyunghwan7949/dramaqa:latest /bin/bash
+docker run -it --gpus '"device=2"' --ipc=host --name dramaqa docker.io/kyunghwan7949/dramaqa:latest /bin/bash
 conda activate dramaqa
 cd /dramaqa
 ```
