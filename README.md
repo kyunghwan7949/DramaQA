@@ -15,5 +15,5 @@ cd /dramaqa
 ### 초기 폴더 생성 및그래프 생성  
 ```bash
 bash download_raw_data.sh
-python preprocess.py
+python preprocess.py 
 ```
